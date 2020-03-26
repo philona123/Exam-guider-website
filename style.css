@@ -1,0 +1,80 @@
+a {
+    margin: 0px 24px
+}
+
+body {
+    background-color: brown;
+    text-align: centre;
+    margin-left: 24px;
+}
+
+
+div{
+    text-align: center;
+}
+
+
+h1{
+    color: gold;
+    font-size: 130px;
+    
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#sourcecontent{
+    text-align: center;
+}
+
+h2{
+    color: gold;
+    
+    font-family: 'Permanent Marker', cursive;
+}
+
+.content{
+    display: none;
+
+}
+
+.content.reveal{
+    display: block;
+    
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    color: beige;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#pagelink{
+    display: block;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#source{
+    text-align: center;
+    font-size: 80px;
+}
+
+#sc{
+    font-family: 'Dancing Script', cursive;
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+}
+
+#dscontent{
+    color: blue;
+}
+
+h3{
+    font-family: 'Acme', sans-serif;
+    color: beige;
+}

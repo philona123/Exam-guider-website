@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+        rel="stylesheet" 
+        href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Pacifico|Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 3</title>
+</head>
+<body>
+    <h2>Text Book PDFs</h2>
+    <button 
+        class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
+        onclick="expand('pdfcontent')" >
+        <span class="material-icons">
+        expand_more
+        </span>
+    </button>
+    <div class="content" id="pdfcontent">
+        <h3>Formal Langualges Automata and Computation</h3>
+        
+        <button 
+        class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
+             onclick="expand('faccontent')" >
+         <span class="material-icons">
+            expand_more
+        </span>
+         </button> 
+         <div class="content" id="faccontent">
+            <a href="https://drive.google.com/file/d/1JIYmYyxCVQ7ff8r0CVV1da0WuRAds-2i/view?usp=sharing">Download PDF</a>
+         </div>
+
+         <h3>Data Structures and Algorithm</h3>
+        
+         <button 
+         class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
+              onclick="expand('dscontent')" >
+          <span class="material-icons">
+             expand_more
+         </span>
+          </button> 
+          <div class="content" id="dscontent">
+             <a href="https://drive.google.com/file/d/1yoqwserHr6Hyff7Luxqufn-4t3-9fWXc/view?usp=sharing">Download PDF</a>
+          </div>
+
+          <h3>Database Management Systems</h3>
+        
+          <button 
+          class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
+               onclick="expand('dbmscontent')" >
+           <span class="material-icons">
+              expand_more
+          </span>
+           </button> 
+           <div class="content" id="dbmscontent">
+              <a href="https://drive.google.com/file/d/1ArfLHOeRPPF4_3QSvE0jdZ6-nNltuP0J/view?usp=sharing">Download PDF</a>
+           </div>
+
+         </div>
+         <button id="pagelink" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="window.location.href ='page2.html';" >Previous</button>
+    <button id="pagelink" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="window.location.href ='index.html';" >Home</button>
+         <script src="script.js"></script>
+</body>
+</html>
